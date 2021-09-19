@@ -8,7 +8,7 @@
 var disqus_loaded = false;
 var disqus_shortname = 'https-ukdataservers-com-1'; //Add your shortname here
 function disqus() {
-    if (disqus_loaded)  {
+    if (!disqus_loaded)  {
         disqus_loaded = true;
         var e = document.createElement("script");
         e.type = "text/javascript";
