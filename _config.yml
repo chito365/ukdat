@@ -32,7 +32,8 @@ header_image: assets/profile.png
 
 google_analytics:
 comments: true
-disqus: https-ukdataservers-com-1
+disqus:
+    shortname: https-ukdataservers-com-1
 
 author: BK. Brown
 author_bio: >-
