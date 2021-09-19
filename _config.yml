@@ -18,26 +18,25 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Purelog: for Writers"
-email: mail@brennanbrown.ca
+title: "UKDataServers: Data for Fantasy"
+email: oscahchitoh@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A responsive sidebar Jekyll theme using the Pure.css framework, 
-  designed for writers and bloggers of all kinds.
+  A Marriage and relationship database for fun.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://purelog.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.UKDataServers.com" # the base hostname & protocol for your site, e.g. http://example.com
 repository: brennanbrown/purelog
-twitter: brennankbrown
-github: brennanbrown
+twitter: pickskenya
+github: chito365
 
 header_image: assets/profile.png
 
-google_analytics:
+google_analytics: UA-47712955-1
 comments: true
 disqus: https-ukdataservers-com-1
 
-author: Brennan K. Brown
+author: BK. Brown
 author_bio: >-
-  Hey there! 😄 My name is Brennan, I'm a 25-year-old Métis web developer and 
+  Hey there! 😄 My name is Brennan, I'm a 50-year-old Métis web developer and 
   content strategist from Winnipeg, Manitoba and currently reside in Calgary, 
   Alberta. I've recently compeleted a Full Stack Developer Program at EvolveU, 
   and I'm looking to help those that need web development work done, or 
