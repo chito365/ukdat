@@ -37,8 +37,11 @@ disqus:
 
 author: author
 author_bio: >-
-  Senior Engineer #NextJS @ #Disney 
-@ReimagineTmrw  WordPress & Gearhead  |  I hope to make smiles & code  |  Views expressed are my own.
+  Hey there! 😄 My name is Maryam, I'm a 25-year-old Métis web developer and 
+  content strategist from Winnipeg, Ca and currently reside in Midwest Soon MIAMI. I've recently compeleted a Full Stack Developer Program at EvolveU, 
+  and I'm looking to help those that need web development work done, or 
+  searching for ideas and management for their next content project.
+author_pic: https://brennanbrown.ca/img/avatar.png
 author_pic: https://www.ukdataservers.com/assets/avatar.jpg
 paginate: 4
 paginate_path: "/:num/"
