@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="/assets/main.css">
     <link rel="stylesheet" href="/assets/code.css">
     <script src="https://kit.fontawesome.com/e9dddf84a6.js" crossorigin="anonymous"></script>
-    {%- seo -%}
+    {% seo title=false %}
     {%- feed_meta -%}
     {%- if site.google_analytics -%}
     {%- include google-analytics.html -%}
@@ -26,4 +26,21 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7836332569926424"
      crossorigin="anonymous"></script>
     <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=615020701dc9b90019870f4b&product=sop' async='async'></script>
+    <title>
+  {% if page.tag or page.title %}
+    {% if page.tag %}
+      {{ page.tag | escape }}
+    {% else %}
+      {{ page.title | escape }}
+    {% endif %}
+    -
+  {% endif %}
+  {% if paginator and paginator.page and paginator.total_pages > 1 and paginator.page > 1 %}
+    Page {{ paginator.page }} of {{ paginator.total_pages }} -
+  {% endif %}
+  {{ site.name | escape }}
+  {% unless page.tag or page.title %}
+    - {{ site.description | escape }}
+  {% endunless %}
+</title>
 </head>
