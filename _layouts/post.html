@@ -40,20 +40,6 @@ layout: default
     {%- endif -%}
 </div>
 <hr>
-			     <div class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
-        {{ page.date | date: date_format }}
-      </time>
-
-      {% if page.author %}
-      &bull; written by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-      {% endif %}
-
-      {% if page.comments == trueee and site.disqus.shortname %}
-      &bull; <a class="disqus-comment-count" href="{{ page.url | absolute_url }}#disqus_thread" data-disqus-identifier="{{ page.url }}">Comments</a>
-      {% endif %}
-    </div>
     {%- include author.html -%}
 <footer>
 	{%- include post-data.html -%}
