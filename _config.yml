@@ -52,6 +52,9 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+  # Build settings
+markdown: kramdown
+
 # Build settings
 theme: null
 plugins:
