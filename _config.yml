@@ -102,3 +102,4 @@ exclude:
   - ".jekyll-cache"
   - "Gemfile"
   - "Gemfile.lock"
+title_separator: "&#160;"
