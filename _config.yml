@@ -26,21 +26,25 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.UKDataServers.com" # the base hostname & protocol for your site, e.g. http://example.com
 repository: chito365/ukdat
 twitter: pickskenya
-github: chitoh
+github: chito365
 
 header_image: assets/profile.png
 
 google_analytics:
 comments: true
-disqus: afriqueunique-org
+disqus: https-ukdataservers-com-1
 
 author: author
 author_bio: >-
-    Hey there! 😄 My name is Maryam, I'm a 25-year-old Métis web developer and
-    content strategist from Winnipeg, Ca and currently reside in Midwest Soon MIAMI.
-  author_pic: https://www.afriqueunique.org/assets/profile.png
+  Hey there! 😄 My name is Maryam, I'm a 25-year-old Métis web developer and
+  content strategist from Winnipeg, Ca and currently reside in Midwest Soon MIAMI. I've recently compeleted a Full Stack Developer Program at EvolveU,
+  and I'm looking to help those that need web development work done, or
+  searching for ideas and management for their next content project.
+author_pic: https://brennanbrown.ca/img/avatar.png
+author_pic: https://www.ukdataservers.com/assets/avatar.jpg
 paginate: 10
 paginate_path: "/:num/"
+title_separator: "&#160;"
 
 markdown: kramdown
 
