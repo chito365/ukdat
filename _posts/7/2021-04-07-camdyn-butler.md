@@ -9,7 +9,6 @@ permalink: /04/07/camdyn-butler
 tags:
   - Husband
   - Wife
-  - Boyfriend
   - Girlfriend
 category: Marriage Guides
 ---
